@@ -77,7 +77,7 @@ const Navbar: React.FC = () => {
 								<ul className="py-2 text-sm text-gray-700">
 									<li>
 										<Link
-											href="/properties/greater-noida"
+											href="/maps/greater-noida"
 											className="block px-6 py-2 hover:bg-gray-100 hover:text-green-600"
 										>
 											Greater Noida
@@ -85,7 +85,7 @@ const Navbar: React.FC = () => {
 									</li>
 									<li>
 										<Link
-											href="/properties/yamuna-express-side-maps"
+											href="/maps/yamuna-expressway"
 											className="block px-6 py-2 hover:bg-gray-100 hover:text-green-600"
 										>
 											Yamuna Exp. Side Maps
@@ -93,7 +93,7 @@ const Navbar: React.FC = () => {
 									</li>
 									<li>
 										<Link
-											href="/properties/noida"
+											href="/maps/noida-extension"
 											className="block px-6 py-2 hover:bg-gray-100 hover:text-green-600"
 										>
 											Noida
