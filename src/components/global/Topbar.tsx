@@ -3,16 +3,23 @@ import { Mail, Phone } from "lucide-react";
 
 export default function Topbar() {
 	return (
-		<div className="max-w-full mx-auto bg-[#424242] text-white">
+		<div className="max-w-full mx-auto bg-gray-900 text-white">
 			<div className="flex items-center justify-between py-4 w-[1240px] mx-auto">
 				<div className="flex items-center w-full gap-x-5">
 					<div className="flex items-center space-x-4">
 						<Mail className="" />
-						<span className="">Email:- Propertysolutionsales.in@gmail.com</span>
+						<a
+							href="mailto:Propertysolutionsales.in@gmail.com"
+							className="hover:underline"
+						>
+							Email:- Propertysolutionsales.in@gmail.com
+						</a>
 					</div>
 					<div className="flex items-center space-x-4">
 						<Phone className="" />
-						<span className="">Call us:- 9560570047</span>
+						<a href="tel:+919560570047" className="hover:underline">
+							Call us:- 9560570047
+						</a>
 					</div>
 				</div>
 				<div className="flex items-center justify-end space-x-4 w-full">
