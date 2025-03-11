@@ -8,37 +8,42 @@ export const mapData = {
 				"Detailed map of ABADI AT JUNPAT in Greater Noida showing key landmarks and roads.",
 		},
 		{
-			id: "abadi-at-kherpur",
-			name: "ABADI AT KHERPUR",
-			imageUrl: "/maps/greater-noida/ABADI AT KHERPUR.jpg",
-			description: "Comprehensive map of ABADI AT KHERPUR with plot details.",
-		},
-		{
-			id: "abadi-at-kot",
-			name: "ABADI AT KOT",
-			imageUrl: "/maps/greater-noida/ABADI AT KOT.jpg",
+			id: "abadi-at-vill-saini",
+			name: "ABADI AT VILL. SAINI.JPG",
+			imageUrl: "/maps/greater-noida/ABADI AT VILL. SAINI.jpg",
 			description:
-				"Map detailing the ABADI AT KOT area with significant landmarks.",
+				"Comprehensive map of ABADI AT VILL. SAINI with plot details.",
 		},
 		{
-			id: "abadi-at-ladpura",
-			name: "ABADI AT LADPURA",
-			imageUrl: "/maps/greater-noida/ABADI AT LADPURA.jpg",
+			id: "abadi-layout-plan-of-village-aminabad-and-jalpura",
+			name: "ABADI LAYOUT PLAN OF VILLAGE AMINABAD AND JALPURA",
+			imageUrl:
+				"/maps/greater-noida/ABADI LAYOUT PLAN OF VILLAGE AMINABAD AND JALPURA.jpg",
 			description:
-				"Detailed map of ABADI AT LADPURA highlighting major roads and plots.",
+				"Map detailing the ABADI LAYOUT PLAN OF VILLAGE AMINABAD AND JALPURA area with significant landmarks.",
 		},
 		{
-			id: "abadi-at-mangrauli",
-			name: "ABADI AT MANGRAULI",
-			imageUrl: "/maps/greater-noida/ABADI AT MANGRAULI.jpg",
+			id: "group-housing-at-sector-swarn-nagri-greater-noida",
+			name: "GROUP HOUSING AT SECTOR SWARN NAGRI GREATER NOIDA",
+			imageUrl:
+				"/maps/greater-noida/GROUP HOUSING AT SECTOR SWARN NAGRI GREATER NOIDA.JPG",
 			description:
-				"Comprehensive map of ABADI AT MANGRAULI with plot and landmark details.",
+				"Detailed map of GROUP HOUSING AT SECTOR SWARN NAGRI GREATER NOIDA highlighting major roads and plots.",
 		},
 		{
-			id: "abadi-at-pali",
-			name: "ABADI AT PALI",
-			imageUrl: "/maps/greater-noida/ABADI AT PALI.jpg",
-			description: "Map showcasing the ABADI AT PALI area with key features.",
+			id: "layout-plan-for-raipur-banger",
+			name: "LAYOUT PLAN FOR RAIPUR BANGER",
+			imageUrl: "/maps/greater-noida/LAYOUT PLAN FOR RAIPUR BANGER.JPG",
+			description:
+				"Comprehensive map of LAYOUT PLAN FOR RAIPUR BANGER with plot and landmark details.",
+		},
+		{
+			id: "layout-plan-of-abadi-extension-at-village-ithera-village",
+			name: "LAYOUT PLAN OF ABADI EXTENSION AT VILLAGE ITHERA VILLAGE",
+			imageUrl:
+				"/maps/greater-noida/LAYOUT PLAN OF ABADI EXTENSION AT VILLAGE ITHERA VILLAGE.JPG",
+			description:
+				"Map showcasing the LAYOUT PLAN OF ABADI EXTENSION AT VILLAGE ITHERA VILLAGE area with key features.",
 		},
 		{
 			id: "abadi-at-salarpur",
