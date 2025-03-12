@@ -21,7 +21,7 @@ export default function DownloadButton({
 	return (
 		<button
 			onClick={handleDownload}
-			className="mt-6 px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors"
+			className="mt-6 px-6 py-3 bg-green-600 text-white rounded hover:bg-green-700 transition-colors"
 		>
 			Download Map
 		</button>

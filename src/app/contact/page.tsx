@@ -61,7 +61,7 @@ export default function ContactPage() {
 
 					<form>
 						<textarea
-							className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+							className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-green-500"
 							rows={7}
 							placeholder="Write your message"
 						></textarea>
@@ -113,7 +113,7 @@ export default function ContactPage() {
 				</a>
 				<a
 					href="tel:+919560570047"
-					className="bg-blue-500 text-white p-3 rounded-full shadow-lg hover:bg-blue-600 transition-colors"
+					className="bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition-colors"
 				>
 					{/* Phone SVG */}
 					<svg

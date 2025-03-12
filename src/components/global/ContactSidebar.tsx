@@ -28,7 +28,7 @@ export default function ContactSidebar() {
 						<span className="font-medium">Ph : </span>
 						<a
 							href="tel:+919560570047"
-							className="text-blue-600 hover:underline"
+							className="text-green-600 hover:underline"
 						>
 							+919560570047
 						</a>
@@ -37,7 +37,7 @@ export default function ContactSidebar() {
 						<span className="font-medium">E-mail: </span>
 						<a
 							href="mailto:Propertysolutionsales.in@gmail.com"
-							className="text-blue-600 hover:underline"
+							className="text-green-600 hover:underline"
 						>
 							Propertysolutionsales.in@gmail.com
 						</a>
@@ -53,7 +53,7 @@ export default function ContactSidebar() {
 				<div className="p-4">
 					<form onSubmit={handleSubmit}>
 						<textarea
-							className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+							className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
 							rows={5}
 							placeholder="Write your message"
 							value={message}
@@ -93,7 +93,7 @@ export default function ContactSidebar() {
 				</a>
 				<a
 					href="tel:+919560570047"
-					className="bg-blue-500 text-white p-3 rounded-full shadow-lg hover:bg-blue-600 transition-colors"
+					className="bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition-colors"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"

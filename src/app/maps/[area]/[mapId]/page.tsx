@@ -52,7 +52,7 @@ export default async function MapDetailPage({
 	return (
 		<div className="container mx-auto px-4 py-8">
 			<div className="mb-6">
-				<Link href={`/maps/${area}`} className="text-blue-600 hover:underline">
+				<Link href={`/maps/${area}`} className="text-green-600 hover:underline">
 					← Back to {areaNames[areaKey as keyof typeof areaNames]} Maps
 				</Link>
 			</div>

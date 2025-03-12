@@ -41,14 +41,14 @@ export default function MapCard({
 			<div className="flex justify-between p-2 text-sm">
 				<Link
 					href={`/maps/${area}/${map.id}`}
-					className="text-blue-600 hover:underline font-medium"
+					className="text-green-600 hover:underline font-medium"
 				>
 					READ MORE
 				</Link>
 
 				<button
 					onClick={handleDownload}
-					className="text-blue-600 hover:underline font-medium"
+					className="text-green-600 hover:underline font-medium"
 				>
 					DOWNLOAD
 				</button>

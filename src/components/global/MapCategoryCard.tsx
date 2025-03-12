@@ -30,7 +30,7 @@ export default function MapCategoryCard({
 				<div className="p-4 text-center">
 					<h3 className="font-bold text-xl text-gray-800">{title}</h3>
 					<div className="mt-4">
-						<span className="inline-block px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors">
+						<span className="inline-block px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition-colors">
 							View Maps
 						</span>
 					</div>

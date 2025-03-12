@@ -20,12 +20,12 @@ export default function Home() {
 						<div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 							<MapCategoryCard
 								title="Greater Noida"
-								imageUrl="/maps/greater-noida/GREATER NOIDA MASTER PLAN 2021.jpg"
+								imageUrl="/maps/greater-noida/ABADI AT JUNPAT.JPG"
 								link="/maps/greater-noida"
 							/>
 							<MapCategoryCard
 								title="Yamuna Expressway"
-								imageUrl="/maps/yamuna-expressway/MASTER PLAN YEIDA 2031.jpg"
+								imageUrl="/maps/yamuna-expressway/ABADI AT KHERPUR.jpg"
 								link="/maps/yamuna-expressway"
 							/>
 							<MapCategoryCard
