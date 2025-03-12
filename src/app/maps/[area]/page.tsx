@@ -12,9 +12,9 @@ export async function generateStaticParams() {
 export default async function MapGridPage({
 	params,
 }: {
-	params: { area: string };
+	params: Promise<{ area: string }>;
 }) {
-	const { area } = params;
+	const { area } = await params;
 
 	// Convert URL format (greater-noida) to data format (greaterNoida)
 	const areaKey = area.replace(/-([a-z])/g, (g) => g[1].toUpperCase());

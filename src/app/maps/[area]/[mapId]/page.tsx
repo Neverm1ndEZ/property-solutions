@@ -27,11 +27,9 @@ export async function generateStaticParams() {
 export default async function MapDetailPage({
 	params,
 }: {
-	params: { area: string; mapId: string };
+	params: Promise<{ area: string; mapId: string }>;
 }) {
-	// Now we properly type the params and mark the component as async
-	const { area, mapId } = params;
-
+	const { area, mapId } = await params;
 	// Convert URL format to data format
 	const areaKey = area.replace(/-([a-z])/g, (g) => g[1].toUpperCase());
 
