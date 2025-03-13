@@ -45,6 +45,13 @@ export const mapData = {
 			description:
 				"Map showcasing the LAYOUT PLAN OF ABADI EXTENSION AT VILLAGE ITHERA VILLAGE area with key features.",
 		},
+		{
+			id: "layout-plan-of-jaitpur-vaishpur",
+			name: "LAYOUT PLAN OF  JAITPUR - VAISHPUR",
+			imageUrl: "/maps/greater-noida/LAYOUT PLAN OF  JAITPUR - VAISHPUR.JPG",
+			description:
+				"Map showcasing the LAYOUT PLAN OF  JAITPUR - VAISHPUR area with key features.",
+		},
 	],
 	yamunaExpressway: [
 		{
