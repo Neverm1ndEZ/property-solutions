@@ -22,7 +22,7 @@ export default function MapCard({
 	return (
 		<div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 border border-gray-200">
 			<div className="p-2 bg-gray-800 text-white text-center">
-				<h3 className="font-semibold text-sm uppercase truncate">{map.name}</h3>
+				<h3 className="font-semibold text-sm uppercase">{map.name}</h3>
 			</div>
 
 			<div className="relative h-52 w-full p-2 bg-white">
