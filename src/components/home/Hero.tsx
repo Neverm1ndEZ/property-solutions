@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero() {
 	return (
-		<div className="bg-[url(/site-assets/hero.webp)] bg-cover bg-center h-[70vh] flex items-center justify-center">
+		<div className="bg-[url(/site-assets/hero.png)] bg-cover bg-no-repeat bg-center h-[70vh] flex items-center justify-center">
 			<div className="bg-black/30 w-full h-full flex flex-col items-center justify-center text-center p-4">
 				<h1 className="text-4xl md:text-6xl lg:text-7xl uppercase font-bold text-white mb-4">
 					Property Solutions

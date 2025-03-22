@@ -127,18 +127,18 @@ export const mapData = {
 				"Map showcasing the LAYOUT PLAN OF AD area with key features.",
 		},
 		{
-			id: "layout-plan-of-alpha-1-copy",
-			name: "LAYOUT PLAN OF ALPHA -1 copy",
+			id: "layout-plan-of-alpha-1-extension",
+			name: "LAYOUT PLAN OF ALPHA -1",
 			imageUrl: "/maps/greater-noida/LAYOUT PLAN OF ALPHA -1 copy.JPG",
 			description:
-				"Map showcasing the LAYOUT PLAN OF ALPHA -1 copy area with key features.",
+				"Map showcasing the LAYOUT PLAN OF ALPHA -1 area with key features.",
 		},
 		{
-			id: "layout-plan-of-alpha-2-copy-copy",
-			name: "LAYOUT PLAN OF ALPHA -2 - Copy copy",
+			id: "layout-plan-of-alpha-2-extension",
+			name: "LAYOUT PLAN OF ALPHA -2",
 			imageUrl: "/maps/greater-noida/LAYOUT PLAN OF ALPHA -2 - Copy copy.JPG",
 			description:
-				"Map showcasing the LAYOUT PLAN OF ALPHA -2 - Copy copy area with key features.",
+				"Map showcasing the LAYOUT PLAN OF ALPHA -2 area with key features.",
 		},
 		{
 			id: "layout-plan-of-ansal-golf-link-1-p-8",
@@ -156,46 +156,39 @@ export const mapData = {
 				"Map showcasing the LAYOUT PLAN OF ANSAL GOLF LINK 2 area with key features.",
 		},
 		{
-			id: "layout-plan-of-beta-1-copy-copy",
-			name: "LAYOUT PLAN OF BETA -1 - Copy copy",
+			id: "layout-plan-of-beta-1-extension",
+			name: "LAYOUT PLAN OF BETA -1",
 			imageUrl: "/maps/greater-noida/LAYOUT PLAN OF BETA -1 - Copy copy.JPG",
 			description:
-				"Map showcasing the LAYOUT PLAN OF BETA -1 - Copy copy area with key features.",
+				"Map showcasing the LAYOUT PLAN OF BETA -1 area with key features.",
 		},
 		{
-			id: "layout-plan-of-beta-2-copy-copy",
-			name: "LAYOUT PLAN OF BETA -2 - Copy copy",
+			id: "layout-plan-of-beta-2-extension",
+			name: "LAYOUT PLAN OF BETA -2",
 			imageUrl: "/maps/greater-noida/LAYOUT PLAN OF BETA -2 - Copy copy.JPG",
 			description:
-				"Map showcasing the LAYOUT PLAN OF BETA -2 - Copy copy area with key features.",
+				"Map showcasing the LAYOUT PLAN OF BETA -2 area with key features.",
 		},
 		{
-			id: "layout-plan-of-chi-phi-extension-copy",
-			name: "LAYOUT PLAN OF CHI PHI EXTENSION copy",
+			id: "layout-plan-of-chi-phi-extension-new",
+			name: "LAYOUT PLAN OF CHI PHI EXTENSION",
 			imageUrl: "/maps/greater-noida/LAYOUT PLAN OF CHI PHI EXTENSION copy.JPG",
 			description:
-				"Map showcasing the LAYOUT PLAN OF CHI PHI EXTENSION copy area with key features.",
+				"Map showcasing the LAYOUT PLAN OF CHI PHI EXTENSION area with key features.",
 		},
 		{
-			id: "layout-plan-of-delta--1-copy",
-			name: "LAYOUT PLAN OF DELTA -1 copy",
+			id: "layout-plan-of-delta-1-",
+			name: "LAYOUT PLAN OF DELTA -1",
 			imageUrl: "/maps/greater-noida/LAYOUT PLAN OF DELTA -1 copy.JPG",
 			description:
-				"Map showcasing the LAYOUT LAYOUT PLAN OF DELTA -1 copy area with key features.",
+				"Map showcasing the LAYOUT LAYOUT PLAN OF DELTA -1 area with key features.",
 		},
 		{
-			id: "layout-plan-of-delta-1-copy",
-			name: "PLAN OF DELTA 1 copy",
-			imageUrl: "/maps/greater-noida/LAYOUT PLAN OF DELTA 1 copy.JPG",
-			description:
-				"Map showcasing the LAYOUT PLAN OF DELTA 1 copy area with key features.",
-		},
-		{
-			id: "layout-plan-of-delta-3-copy",
-			name: "LAYOUT PLAN OF DELTA 3 copy",
+			id: "layout-plan-of-delta-3",
+			name: "LAYOUT PLAN OF DELTA 3",
 			imageUrl: "/maps/greater-noida/LAYOUT PLAN OF DELTA 3 copy.JPG",
 			description:
-				"Map showcasing the LAYOUT PLAN OF DELTA 3 copy area with key features.",
+				"Map showcasing the LAYOUT PLAN OF DELTA 3 area with key features.",
 		},
 		{
 			id: "layout-plan-of-ecotech-1-extension-1",
@@ -371,18 +364,11 @@ export const mapData = {
 				"Map showcasing the LAYOUT PLAN OF NRI CITY area with key features.",
 		},
 		{
-			id: "layout-plan-of-omicron--1",
+			id: "layout-plan-of-omicron-1",
 			name: "LAYOUT PLAN OF OMICRON - 1",
 			imageUrl: "/maps/greater-noida/LAYOUT PLAN OF OMICRON - 1.JPG",
 			description:
 				"Map showcasing the LAYOUT PLAN OF OMICRON - 1 area with key features.",
-		},
-		{
-			id: "layout-plan-of-omicron-1",
-			name: "LAYOUT PLAN OF OMICRON 1",
-			imageUrl: "/maps/greater-noida/LAYOUT PLAN OF OMICRON 1.JPG",
-			description:
-				"Map showcasing the LAYOUT PLAN OF OMICRON 1 area with key features.",
 		},
 		{
 			id: "layout-plan-of-omicron-1a",
@@ -517,13 +503,6 @@ export const mapData = {
 			imageUrl: "/maps/greater-noida/LAYOUT PLAN OF SIGMA 3.JPG",
 			description:
 				"Map showcasing the LAYOUT PLAN OF SIGMA 3 area with key features.",
-		},
-		{
-			id: "layout-plan-of-sigma-4-copy",
-			name: "LAYOUT PLAN OF SIGMA 4 copy",
-			imageUrl: "/maps/greater-noida/LAYOUT PLAN OF SIGMA 4 copy.JPG",
-			description:
-				"Map showcasing the LAYOUT PLAN OF SIGMA 4 copy area with key features.",
 		},
 		{
 			id: "layout-plan-of-sigma-4",
@@ -737,6 +716,508 @@ export const mapData = {
 			name: "Khodna Khurd",
 			imageUrl: "/maps/yamuna-expressway/Khodna Khurd.JPG",
 			description: "Future master plan of Khodna Khurd",
+		},
+		{
+			id: "layout-plan-of-7-reidential-plots-for-village-mnjkhera-salarpur-atta-guzran-gunpura-aurangpur-bela-kalan-mathurapur-and-fatehpur-atta",
+			name: "LAYOUT PLAN OF  7_ REIDENTIAL PLOTS FOR VILLAGE-MNJKHERA, SALARPUR, ATTA GUZRAN, GUNPURA, AURANGPUR, BELA KALAN, MATHURAPUR & FATEHPUR ATTA",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT PLAN OF  7_ REIDENTIAL PLOTS FOR VILLAGE-MNJKHERA, SALARPUR, ATTA GUZRAN, GUNPURA, AURANGPUR, BELA KALAN, MATHURAPUR & FATEHPUR ATTA.jpg",
+			description:
+				"LAYOUT PLAN OF  7_ REIDENTIAL PLOTS FOR VILLAGE-MNJKHERA, SALARPUR, ATTA GUZRAN, GUNPURA, AURANGPUR, BELA KALAN, MATHURAPUR & FATEHPUR ATTA",
+		},
+		{
+			id: "layout-plan-of-7-resi-plot-for-vill-munjkherasalarpur-atta-guzran-gunpura-aurangpur-bela-kalan-mathurapur-fatehpur-atta-sports-city-and-munjkheda-sdz",
+			name: "LAYOUT PLAN OF  7_ RESI. PLOT FOR VILL. MUNJKHERA,SALARPUR, ATTA GUZRAN, GUNPURA, AURANGPUR, BELA KALAN, MATHURAPUR, FATEHPUR ATTA SPORTS CITY & MUNJKHEDA.  (SDZ)",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT PLAN OF  7_ RESI. PLOT FOR VILL. MUNJKHERA,SALARPUR, ATTA GUZRAN, GUNPURA, AURANGPUR, BELA KALAN, MATHURAPUR, FATEHPUR ATTA SPORTS CITY & MUNJKHEDA.  (SDZ).JPG",
+			description:
+				"LAYOUT PLAN OF  7_ RESI. PLOT FOR VILL. MUNJKHERA,SALARPUR, ATTA GUZRAN, GUNPURA, AURANGPUR, BELA KALAN, MATHURAPUR, FATEHPUR ATTA SPORTS CITY & MUNJKHEDA.  (SDZ)",
+		},
+		{
+			id: "layout-plan-of-future-v-abadi-at-roza-yakubpur",
+			name: "LAYOUT plan of  FUTURE V ABADI AT ROZA YAKUBPUR",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT plan of  FUTURE V ABADI AT ROZA YAKUBPUR.JPG",
+			description: "LAYOUT plan of  FUTURE V ABADI AT ROZA YAKUBPUR",
+		},
+		{
+			id: "layout-plan-of-ons-co-pa-fac-gro-villa-cana-infor-abad-7-vill-mohammadpur-gurjar",
+			name: "Layout Plan Of  ONS  Co  Pa  Fac  Gro  Villa  Cana  Infor  Abad  7_ VILL. MOHAMMADPUR GURJAR",
+			imageUrl:
+				"/maps/yamuna-expressway/Layout Plan Of  ONS  Co  Pa  Fac  Gro  Villa  Cana  Infor  Abad  7_ VILL. MOHAMMADPUR GURJAR.JPG",
+			description:
+				"Layout Plan Of  ONS  Co  Pa  Fac  Gro  Villa  Cana  Infor  Abad  7_ VILL. MOHAMMADPUR GURJAR",
+		},
+		{
+			id: "layout-plan-of-part-sector-20-7-abadi-plots-village-parsaul-block-no-w",
+			name: "LAYOUT PLAN OF  PART SECTOR-20  7_ ABADI PLOTS VILLAGE PARSAUL BLOCK NO.-W",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT PLAN OF  PART SECTOR-20  7_ ABADI PLOTS VILLAGE PARSAUL BLOCK NO.-W.JPG",
+			description:
+				"LAYOUT PLAN OF  PART SECTOR-20  7_ ABADI PLOTS VILLAGE PARSAUL BLOCK NO.-W",
+		},
+		{
+			id: "layout-plan-of-pocket-sector-17-for-7-abadi-plots-of-village-dhanauri",
+			name: "LAYOUT PLAN OF  POCKET SECTOR-17 FOR 7_ ABADI PLOTS OF VILLAGE DHANAURI",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT PLAN OF  POCKET SECTOR-17 FOR 7_ ABADI PLOTS OF VILLAGE DHANAURI.jpg",
+			description:
+				"LAYOUT PLAN OF  POCKET SECTOR-17 FOR 7_ ABADI PLOTS OF VILLAGE DHANAURI",
+		},
+		{
+			id: "layout-plan-of-se-7-ronija-block-a-niloni-shahpur-block-b",
+			name: "Layout Plan Of  SE  7_ RONIJA BLOCK-A NILONI SHAHPUR  BLOCK-B",
+			imageUrl:
+				"/maps/yamuna-expressway/Layout Plan Of  SE  7_ RONIJA BLOCK-A NILONI SHAHPUR  BLOCK-B.JPG",
+			description:
+				"Layout Plan Of  SE  7_ RONIJA BLOCK-A NILONI SHAHPUR  BLOCK-B",
+		},
+		{
+			id: "layout-plan-of-sector-18-7c-and-7d",
+			name: "LAYOUT plan of -SECTOR-18 7C & 7D",
+			imageUrl: "/maps/yamuna-expressway/LAYOUT plan of -SECTOR-18 7C & 7D.JPG",
+			description: "LAYOUT plan of -SECTOR-18 7C & 7D",
+		},
+		{
+			id: "layout-plan-of-abadi-at-dabra",
+			name: "LAYOUT Plan of ABADI AT DABRA",
+			imageUrl: "/maps/yamuna-expressway/LAYOUT Plan of ABADI AT DABRA.jpg",
+			description: "LAYOUT Plan of ABADI AT DABRA",
+		},
+		{
+			id: "layout-plan-of-abadi-vill-pali-at-gr-noida",
+			name: "LAYOUT PLAN OF ABADI VILL. PALI AT GR. NOIDA",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT PLAN OF ABADI VILL. PALI AT GR. NOIDA.jpg",
+			description: "LAYOUT PLAN OF ABADI VILL. PALI AT GR. NOIDA",
+		},
+		{
+			id: "layout-plan-of-abadi-vill-rampur",
+			name: "LAYOUT Plan of ABADI VILL. RAMPUR",
+			imageUrl: "/maps/yamuna-expressway/LAYOUT Plan of ABADI VILL. RAMPUR.JPG",
+			description: "LAYOUT Plan of ABADI VILL. RAMPUR",
+		},
+		{
+			id: "layout-plan-of-haibatpur",
+			name: "LAYOUT Plan of HAIBATPUR",
+			imageUrl: "/maps/yamuna-expressway/LAYOUT Plan of HAIBATPUR.jpg",
+			description: "LAYOUT Plan of HAIBATPUR",
+		},
+		{
+			id: "layout-plan-of-part-of-sector-18pkt-9-vill-mirjapur-7",
+			name: "LAYOUT PLAN OF PART OF SECTOR-18(PKT-9) VILL. MIRJAPUR 7_",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT PLAN OF PART OF SECTOR-18(PKT-9) VILL. MIRJAPUR 7_.JPG",
+			description: "LAYOUT PLAN OF PART OF SECTOR-18(PKT-9) VILL. MIRJAPUR 7_",
+		},
+		{
+			id: "layout-plan-of-pocket-sector-18-7-abadi-village-rampur-bangar-sadar",
+			name: "LAYOUT PLAN OF POCKET SECTOR-18 7_ ABADI VILLAGE RAMPUR BANGAR (SADAR)",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT PLAN OF POCKET SECTOR-18 7_ ABADI VILLAGE RAMPUR BANGAR (SADAR).JPG",
+			description:
+				"LAYOUT PLAN OF POCKET SECTOR-18 7_ ABADI VILLAGE RAMPUR BANGAR (SADAR)",
+		},
+		{
+			id: "layout-plan-of-rated-sector-20-pocket-m",
+			name: "LAYOUT Plan of Rated SECTOR 20 POCKET-M",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT Plan of Rated SECTOR 20 POCKET-M.jpg",
+			description: "LAYOUT Plan of Rated SECTOR 20 POCKET-M",
+		},
+		{
+			id: "layout-plan-of-sector-16-part",
+			name: "Layout Plan Of SECTOR -16 (PART)",
+			imageUrl: "/maps/yamuna-expressway/Layout Plan Of SECTOR -16 (PART).jpg",
+			description: "Layout Plan Of SECTOR -16 (PART)",
+		},
+		{
+			id: "layout-plan-of-sector-17-yamuna-expressway",
+			name: "LAYOUT Plan of SECTOR 17 YAMUNA EXPRESSWAY",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT Plan of SECTOR 17 YAMUNA EXPRESSWAY.JPG",
+			description: "LAYOUT Plan of SECTOR 17 YAMUNA EXPRESSWAY",
+		},
+		{
+			id: "layout-plan-of-sector-18-1-mb-pocket-i",
+			name: "LAYOUT plan of SECTOR 18  1 MB  POCKET-I",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT plan of SECTOR 18  1 MB  POCKET-I.JPG",
+			description: "LAYOUT plan of SECTOR 18  1 MB  POCKET-I",
+		},
+		{
+			id: "layout-plan-of-sector-18-pocket-1b",
+			name: "LAYOUT Plan of SECTOR 18  POCKET-1B",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT Plan of SECTOR 18  POCKET-1B.JPG",
+			description: "LAYOUT Plan of SECTOR 18  POCKET-1B",
+		},
+		{
+			id: "layout-plan-of-sector-18-pocket-1a",
+			name: "LAYOUT Plan of SECTOR 18 POCKET-1A",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT Plan of SECTOR 18 POCKET-1A.JPG",
+			description: "LAYOUT Plan of SECTOR 18 POCKET-1A",
+		},
+		{
+			id: "layout-plan-of-sector-18-pocket-2a-and-20",
+			name: "LAYOUT Plan of SECTOR 18 POCKET-2A & 20",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT Plan of SECTOR 18 POCKET-2A & 20.JPG",
+			description: "LAYOUT Plan of SECTOR 18 POCKET-2A & 20",
+		},
+		{
+			id: "layout-plan-of-sector-18-pocket-2b",
+			name: "LAYOUT Plan of SECTOR 18 POCKET-2B",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT Plan of SECTOR 18 POCKET-2B.JPG",
+			description: "LAYOUT Plan of SECTOR 18 POCKET-2B",
+		},
+		{
+			id: "layout-plan-of-sector-18-pocket-4a",
+			name: "LAYOUT Plan of SECTOR 18 POCKET-4A",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT Plan of SECTOR 18 POCKET-4A.jpg",
+			description: "LAYOUT Plan of SECTOR 18 POCKET-4A",
+		},
+		{
+			id: "layout-plan-of-sector-18-pocket-5a",
+			name: "LAYOUT plan of SECTOR 18 POCKET-5A",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT plan of SECTOR 18 POCKET-5A.jpg",
+			description: "LAYOUT plan of SECTOR 18 POCKET-5A",
+		},
+		{
+			id: "layout-plan-of-sector-18-pocket-6b",
+			name: "LAYOUT plan of SECTOR 18 POCKET-6B",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT plan of SECTOR 18 POCKET-6B.JPG",
+			description: "LAYOUT plan of SECTOR 18 POCKET-6B",
+		},
+		{
+			id: "layout-plan-of-sector-18-pocket-8",
+			name: "LAYOUT Plan of SECTOR 18 POCKET-8",
+			imageUrl: "/maps/yamuna-expressway/LAYOUT Plan of SECTOR 18 POCKET-8.JPG",
+			description: "LAYOUT Plan of SECTOR 18 POCKET-8",
+		},
+		{
+			id: "layout-plan-of-sector-18-pocket-50",
+			name: "LAYOUT Plan of SECTOR 18 POCKET-50",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT Plan of SECTOR 18 POCKET-50.JPG",
+			description: "LAYOUT Plan of SECTOR 18 POCKET-50",
+		},
+		{
+			id: "layout-plan-of-sector-18-pocket-j",
+			name: "LAYOUT Plan of SECTOR 18 POCKET-J",
+			imageUrl: "/maps/yamuna-expressway/LAYOUT Plan of SECTOR 18 POCKET-J.JPG",
+			description: "LAYOUT Plan of SECTOR 18 POCKET-J",
+		},
+		{
+			id: "layout-plan-of-sector-18-pocsket-8",
+			name: "LAYOUT Plan of SECTOR 18 POCСКЕТ-8",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT Plan of SECTOR 18 POCСКЕТ-8.JPG",
+			description: "LAYOUT Plan of SECTOR 18 POCСКЕТ-8",
+		},
+		{
+			id: "layout-plan-of-sector-1820",
+			name: "LAYOUT Plan of SECTOR 18,20",
+			imageUrl: "/maps/yamuna-expressway/LAYOUT Plan of SECTOR 18,20.JPG",
+			description: "LAYOUT Plan of SECTOR 18,20",
+		},
+		{
+			id: "layout-plan-of-sector-20-✗-1-sele-pocket-f",
+			name: "LAYOUT plan of SECTOR 20  ✗  1 sele  POCKET-F",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT plan of SECTOR 20  ✗  1 sele  POCKET-F.jpg",
+			description: "LAYOUT plan of SECTOR 20  ✗  1 sele  POCKET-F",
+		},
+		{
+			id: "layout-plan-of-sector-20-h-pocket-g",
+			name: "LAYOUT Plan of SECTOR 20  H  POCKET-G",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT Plan of SECTOR 20  H  POCKET-G.jpg",
+			description: "LAYOUT Plan of SECTOR 20  H  POCKET-G",
+		},
+		{
+			id: "layout-plan-of-sector-20-pocket-k-and-l",
+			name: "LAYOUT Plan of SECTOR 20  POCKET -K & L",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT Plan of SECTOR 20  POCKET -K & L.jpg",
+			description: "LAYOUT Plan of SECTOR 20  POCKET -K & L",
+		},
+		{
+			id: "layout-plan-of-sector-20-pocket-t",
+			name: "LAYOUT plan of SECTOR 20 POCKET - T",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT plan of SECTOR 20 POCKET - T.JPG",
+			description: "LAYOUT plan of SECTOR 20 POCKET - T",
+		},
+		{
+			id: "layout-plan-of-sector-20-pocket-a",
+			name: "LAYOUT Plan of SECTOR 20 POCKET-A",
+			imageUrl: "/maps/yamuna-expressway/LAYOUT Plan of SECTOR 20 POCKET-A.jpg",
+			description: "LAYOUT Plan of SECTOR 20 POCKET-A",
+		},
+		{
+			id: "layout-plan-of-sector-20-pocket-d",
+			name: "LAYOUT plan of SECTOR 20 POCKET-D",
+			imageUrl: "/maps/yamuna-expressway/LAYOUT plan of SECTOR 20 POCKET-D.jpg",
+			description: "LAYOUT plan of SECTOR 20 POCKET-D",
+		},
+		{
+			id: "layout-plan-of-sector-20-pocket-h",
+			name: "LAYOUT Plan of SECTOR 20 POCKET-H",
+			imageUrl: "/maps/yamuna-expressway/LAYOUT Plan of SECTOR 20 POCKET-H.jpg",
+			description: "LAYOUT Plan of SECTOR 20 POCKET-H",
+		},
+		{
+			id: "layout-plan-of-sector-20-pocket-n",
+			name: "LAYOUT Plan of SECTOR 20 POCKET-N",
+			imageUrl: "/maps/yamuna-expressway/LAYOUT Plan of SECTOR 20 POCKET-N.jpg",
+			description: "LAYOUT Plan of SECTOR 20 POCKET-N",
+		},
+		{
+			id: "layout-plan-of-sector-20-pocket-q",
+			name: "LAYOUT Plan of SECTOR 20, POCKET - Q",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT Plan of SECTOR 20, POCKET - Q .JPG",
+			description: "LAYOUT Plan of SECTOR 20, POCKET - Q",
+		},
+		{
+			id: "layout-plan-of-sector-21",
+			name: "LAYOUT Plan of SECTOR 21",
+			imageUrl: "/maps/yamuna-expressway/LAYOUT Plan of SECTOR 21.jpg",
+			description: "LAYOUT Plan of SECTOR 21",
+		},
+		{
+			id: "layout-plan-of-sector-24-a",
+			name: "LAYOUT Plan of SECTOR 24-A",
+			imageUrl: "/maps/yamuna-expressway/LAYOUT Plan of SECTOR 24-A.jpg",
+			description: "LAYOUT Plan of SECTOR 24-A",
+		},
+		{
+			id: "layout-plan-of-sector-18-part-7e",
+			name: "LAYOUT plan of SECTOR-18  PART-7E",
+			imageUrl: "/maps/yamuna-expressway/LAYOUT plan of SECTOR-18  PART-7E.jpg",
+			description: "LAYOUT plan of SECTOR-18  PART-7E",
+		},
+		{
+			id: "layout-plan-of-sector-18-7b-and-7f",
+			name: "LAYOUT plan of SECTOR-18 7B & 7F",
+			imageUrl: "/maps/yamuna-expressway/LAYOUT plan of SECTOR-18 7B & 7F.JPG",
+			description: "LAYOUT plan of SECTOR-18 7B & 7F",
+		},
+		{
+			id: "layout-plan-of-sector-18-pocket-7a",
+			name: "LAYOUT Plan of SECTOR-18 POCKET-7A",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT Plan of SECTOR-18 POCKET-7A.JPG",
+			description: "LAYOUT Plan of SECTOR-18 POCKET-7A",
+		},
+		{
+			id: "layout-plan-of-sector-22d",
+			name: "LAYOUT Plan of Sector-22D",
+			imageUrl: "/maps/yamuna-expressway/LAYOUT Plan of Sector-22D.JPG",
+			description: "LAYOUT Plan of Sector-22D",
+		},
+		{
+			id: "layout-plan-of-sector-33",
+			name: "LAYOUT Plan of Sector-33",
+			imageUrl: "/maps/yamuna-expressway/LAYOUT Plan of Sector-33.JPG",
+			description: "LAYOUT Plan of Sector-33",
+		},
+		{
+			id: "layout-plan-of-village-dungarpur-reelka",
+			name: "LAYOUT PLAN OF VILLAGE DUNGARPUR REELKA",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT PLAN OF VILLAGE DUNGARPUR REELKA.JPG",
+			description: "LAYOUT PLAN OF VILLAGE DUNGARPUR REELKA",
+		},
+		{
+			id: "layout-plan-of-village-rampur-sadar",
+			name: "LAYOUT PLAN OF VILLAGE RAMPUR (SADAR)",
+			imageUrl:
+				"/maps/yamuna-expressway/LAYOUT PLAN OF VILLAGE RAMPUR (SADAR).jpg",
+			description: "LAYOUT PLAN OF VILLAGE RAMPUR (SADAR)",
+		},
+		{
+			id: "master-plan-of-yamuna-expressway-2031-phase-1",
+			name: "MASTER PLAN OF YAMUNA EXPRESSWAY 2031 (PHASE-1)",
+			imageUrl:
+				"/maps/yamuna-expressway/MASTER PLAN OF YAMUNA EXPRESSWAY 2031 (PHASE-1).JPG",
+			description: "MASTER PLAN OF YAMUNA EXPRESSWAY 2031 (PHASE-1)",
+		},
+		{
+			id: "part-layout-plan-village-acheja-bujarg",
+			name: "PART LAYOUT PLAN  VILLAGE ACHEJA BUJARG",
+			imageUrl:
+				"/maps/yamuna-expressway/PART LAYOUT PLAN  VILLAGE ACHEJA BUJARG.JPG",
+			description: "PART LAYOUT PLAN  VILLAGE ACHEJA BUJARG",
+		},
+		{
+			id: "part-layout-plan-village-niloni-shahpur-for-7-residential-plots-of-village-niloni-shahpur-block-edc-and-b-part",
+			name: "PART LAYOUT PLAN  VILLAGE NILONI SHAHPUR  FOR 7_ RESIDENTIAL PLOTS OF VILLAGE-NILONI SHAHPUR  BLOCK - E,D,C & B (PART)",
+			imageUrl:
+				"/maps/yamuna-expressway/PART LAYOUT PLAN  VILLAGE NILONI SHAHPUR  FOR 7_ RESIDENTIAL PLOTS OF VILLAGE-NILONI SHAHPUR  BLOCK - E,D,C & B (PART).JPG",
+			description:
+				"PART LAYOUT PLAN  VILLAGE NILONI SHAHPUR  FOR 7_ RESIDENTIAL PLOTS OF VILLAGE-NILONI SHAHPUR  BLOCK - E,D,C & B (PART)",
+		},
+		{
+			id: "proposed-layout-of-village-mubarakpur",
+			name: "PROPOSED LAYOUT OF VILLAGE MUBARAKPUR",
+			imageUrl:
+				"/maps/yamuna-expressway/PROPOSED LAYOUT OF VILLAGE MUBARAKPUR.JPG",
+			description: "PROPOSED LAYOUT OF VILLAGE MUBARAKPUR",
+		},
+		{
+			id: "proposed-layout-plan-for-6-abadi-extension-at-village-saini",
+			name: "PROPOSED LAYOUT PLAN FOR  6_ ABADI EXTENSION AT VILLAGE SAINI",
+			imageUrl:
+				"/maps/yamuna-expressway/PROPOSED LAYOUT PLAN FOR  6_ ABADI EXTENSION AT VILLAGE SAINI.JPG",
+			description:
+				"PROPOSED LAYOUT PLAN FOR  6_ ABADI EXTENSION AT VILLAGE SAINI",
+		},
+		{
+			id: "proposed-master-plan-of-yamuna-expressway-2841-phase-1",
+			name: "PROPOSED MASTER PLAN OF YAMUNA EXPRESSWAY 2841-PHASE-1",
+			imageUrl:
+				"/maps/yamuna-expressway/PROPOSED MASTER PLAN OF YAMUNA EXPRESSWAY 2841-PHASE-1.JPG",
+			description: "PROPOSED MASTER PLAN OF YAMUNA EXPRESSWAY 2841-PHASE-1",
+		},
+		{
+			id: "rustampur-village",
+			name: "RUSTAMPUR VILLAGE",
+			imageUrl: "/maps/yamuna-expressway/RUSTAMPUR VILLAGE.jpg",
+			description: "RUSTAMPUR VILLAGE",
+		},
+		{
+			id: "sector-17-yamuna-expressway",
+			name: "SECTOR 17 YAMUNA EXPRESSWAY",
+			imageUrl: "/maps/yamuna-expressway/SECTOR 17 YAMUNA EXPRESSWAY.JPG",
+			description: "SECTOR 17 YAMUNA EXPRESSWAY",
+		},
+		{
+			id: "sector-18-pocket-3a",
+			name: "SECTOR 18  POCKET-3A",
+			imageUrl: "/maps/yamuna-expressway/SECTOR 18  POCKET-3A.jpg",
+			description: "SECTOR 18  POCKET-3A",
+		},
+		{
+			id: "sector-18-pocket-3b",
+			name: "SECTOR 18 POCKET-3B",
+			imageUrl: "/maps/yamuna-expressway/SECTOR 18 POCKET-3B.jpg",
+			description: "SECTOR 18 POCKET-3B",
+		},
+		{
+			id: "sector-18-pocket-3c",
+			name: "SECTOR 18 POCKET-3C",
+			imageUrl: "/maps/yamuna-expressway/SECTOR 18 POCKET-3C.jpg",
+			description: "SECTOR 18 POCKET-3C",
+		},
+		{
+			id: "sector-18-pocket-3d",
+			name: "SECTOR 18 POCKET-3D",
+			imageUrl: "/maps/yamuna-expressway/SECTOR 18 POCKET-3D.jpg",
+			description: "SECTOR 18 POCKET-3D",
+		},
+		{
+			id: "sector-18-pocket-5b",
+			name: "SECTOR 18 POCKET-5B",
+			imageUrl: "/maps/yamuna-expressway/SECTOR 18 POCKET-5B.JPG",
+			description: "SECTOR 18 POCKET-5B",
+		},
+		{
+			id: "sector-18-pocket-5c",
+			name: "SECTOR 18 POCKET-5C",
+			imageUrl: "/maps/yamuna-expressway/SECTOR 18 POCKET-5C.JPG",
+			description: "SECTOR 18 POCKET-5C",
+		},
+		{
+			id: "sector-18-pocket-6a",
+			name: "SECTOR 18 POCKET-6A",
+			imageUrl: "/maps/yamuna-expressway/SECTOR 18 POCKET-6A.JPG",
+			description: "SECTOR 18 POCKET-6A",
+		},
+		{
+			id: "sector-18-pocket-6c",
+			name: "SECTOR 18 POCKET-6C",
+			imageUrl: "/maps/yamuna-expressway/SECTOR 18 POCKET-6C.JPG",
+			description: "SECTOR 18 POCKET-6C",
+		},
+		{
+			id: "sector-18-pocket-6d",
+			name: "SECTOR 18 POCKET-6D",
+			imageUrl: "/maps/yamuna-expressway/SECTOR 18 POCKET-6D.JPG",
+			description: "SECTOR 18 POCKET-6D",
+		},
+		{
+			id: "sector-20-pocket-b-and-c",
+			name: "SECTOR 20  POCKET-B & C",
+			imageUrl: "/maps/yamuna-expressway/SECTOR 20  POCKET-B & C.jpg",
+			description: "SECTOR 20  POCKET-B & C",
+		},
+		{
+			id: "sector-20-pocket-u",
+			name: "SECTOR 20 POCKET - U",
+			imageUrl: "/maps/yamuna-expressway/SECTOR 20 POCKET - U.JPG",
+			description: "SECTOR 20 POCKET - U",
+		},
+		{
+			id: "sector-20-pocket-0",
+			name: "SECTOR 20 POCKET-0",
+			imageUrl: "/maps/yamuna-expressway/SECTOR 20 POCKET-0.jpg",
+			description: "SECTOR 20 POCKET-0",
+		},
+		{
+			id: "sector-20-pocket-e",
+			name: "SECTOR 20 POCKET-E",
+			imageUrl: "/maps/yamuna-expressway/SECTOR 20 POCKET-E.jpg",
+			description: "SECTOR 20 POCKET-E",
+		},
+		{
+			id: "sector-20-pocket-p",
+			name: "SECTOR 20 POCKET-P",
+			imageUrl: "/maps/yamuna-expressway/SECTOR 20 POCKET-P.jpg",
+			description: "SECTOR 20 POCKET-P",
+		},
+		{
+			id: "sector-20-pocket-r-and-s-pocket-r-and-s",
+			name: "SECTOR 20 POCKET-R & S, POCKET - R & S",
+			imageUrl:
+				"/maps/yamuna-expressway/SECTOR 20 POCKET-R & S, POCKET - R & S.JPG",
+			description: "SECTOR 20 POCKET-R & S, POCKET - R & S",
+		},
+		{
+			id: "sector-29-industrial",
+			name: "SECTOR 29  Industrial",
+			imageUrl: "/maps/yamuna-expressway/SECTOR 29  Industrial.JPG",
+			description: "SECTOR 29  Industrial",
+		},
+		{
+			id: "sector-22d",
+			name: "Sector-22D",
+			imageUrl: "/maps/yamuna-expressway/Sector-22D.JPG",
+			description: "Sector-22D",
+		},
+		{
+			id: "sector-24",
+			name: "SECTOR-24",
+			imageUrl: "/maps/yamuna-expressway/SECTOR-24.JPG",
+			description: "SECTOR-24",
+		},
+		{
+			id: "sector-32",
+			name: "Sector-32",
+			imageUrl: "/maps/yamuna-expressway/Sector-32.JPG",
+			description: "Sector-32",
+		},
+		{
+			id: "vill-kherali-bhav-7",
+			name: "VILL. KHERALI BHAV 7_",
+			imageUrl: "/maps/yamuna-expressway/VILL. KHERALI BHAV 7_.JPG",
+			description: "VILL. KHERALI BHAV 7_",
 		},
 	],
 	noidaExtension: [
