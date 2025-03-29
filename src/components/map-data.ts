@@ -707,7 +707,7 @@ export const mapData = {
 		},
 		{
 			id: "jaypef-sport-city",
-			name: "JAYPEF SPORT CITY.JPG",
+			name: "JAYPEF SPORT CITY",
 			imageUrl: "/maps/yamuna-expressway/JAYPEF SPORT CITY.JPG",
 			description: "Detailed master plan of JAYPEF SPORT CITY",
 		},
@@ -719,19 +719,19 @@ export const mapData = {
 		},
 		{
 			id: "layout-plan-of-7-reidential-plots-for-village-mnjkhera-salarpur-atta-guzran-gunpura-aurangpur-bela-kalan-mathurapur-and-fatehpur-atta",
-			name: "LAYOUT PLAN OF  7_ REIDENTIAL PLOTS FOR VILLAGE-MNJKHERA, SALARPUR, ATTA GUZRAN, GUNPURA, AURANGPUR, BELA KALAN, MATHURAPUR & FATEHPUR ATTA",
+			name: "LAYOUT PLAN OF  7% REIDENTIAL PLOTS FOR VILLAGE-MNJKHERA, SALARPUR, ATTA GUZRAN, GUNPURA, AURANGPUR, BELA KALAN, MATHURAPUR & FATEHPUR ATTA",
 			imageUrl:
 				"/maps/yamuna-expressway/LAYOUT PLAN OF  7_ REIDENTIAL PLOTS FOR VILLAGE-MNJKHERA, SALARPUR, ATTA GUZRAN, GUNPURA, AURANGPUR, BELA KALAN, MATHURAPUR & FATEHPUR ATTA.jpg",
 			description:
-				"LAYOUT PLAN OF  7_ REIDENTIAL PLOTS FOR VILLAGE-MNJKHERA, SALARPUR, ATTA GUZRAN, GUNPURA, AURANGPUR, BELA KALAN, MATHURAPUR & FATEHPUR ATTA",
+				"LAYOUT PLAN OF  7% REIDENTIAL PLOTS FOR VILLAGE-MNJKHERA, SALARPUR, ATTA GUZRAN, GUNPURA, AURANGPUR, BELA KALAN, MATHURAPUR & FATEHPUR ATTA",
 		},
 		{
 			id: "layout-plan-of-7-resi-plot-for-vill-munjkherasalarpur-atta-guzran-gunpura-aurangpur-bela-kalan-mathurapur-fatehpur-atta-sports-city-and-munjkheda-sdz",
-			name: "LAYOUT PLAN OF  7_ RESI. PLOT FOR VILL. MUNJKHERA,SALARPUR, ATTA GUZRAN, GUNPURA, AURANGPUR, BELA KALAN, MATHURAPUR, FATEHPUR ATTA SPORTS CITY & MUNJKHEDA.  (SDZ)",
+			name: "LAYOUT PLAN OF 7% RESI. PLOT FOR VILL. MUNJKHERA,SALARPUR, ATTA GUZRAN, GUNPURA, AURANGPUR, BELA KALAN, MATHURAPUR, FATEHPUR ATTA SPORTS CITY & MUNJKHEDA",
 			imageUrl:
 				"/maps/yamuna-expressway/LAYOUT PLAN OF  7_ RESI. PLOT FOR VILL. MUNJKHERA,SALARPUR, ATTA GUZRAN, GUNPURA, AURANGPUR, BELA KALAN, MATHURAPUR, FATEHPUR ATTA SPORTS CITY & MUNJKHEDA.  (SDZ).JPG",
 			description:
-				"LAYOUT PLAN OF  7_ RESI. PLOT FOR VILL. MUNJKHERA,SALARPUR, ATTA GUZRAN, GUNPURA, AURANGPUR, BELA KALAN, MATHURAPUR, FATEHPUR ATTA SPORTS CITY & MUNJKHEDA.  (SDZ)",
+				"LAYOUT PLAN OF  7% RESI. PLOT FOR VILL. MUNJKHERA,SALARPUR, ATTA GUZRAN, GUNPURA, AURANGPUR, BELA KALAN, MATHURAPUR, FATEHPUR ATTA SPORTS CITY & MUNJKHEDA.  (SDZ)",
 		},
 		{
 			id: "layout-plan-of-future-v-abadi-at-roza-yakubpur",
@@ -742,35 +742,35 @@ export const mapData = {
 		},
 		{
 			id: "layout-plan-of-ons-co-pa-fac-gro-villa-cana-infor-abad-7-vill-mohammadpur-gurjar",
-			name: "Layout Plan Of  ONS  Co  Pa  Fac  Gro  Villa  Cana  Infor  Abad  7_ VILL. MOHAMMADPUR GURJAR",
+			name: "Layout Plan Of  ONS  Co  Pa  Fac  Gro  Villa  Cana  Infor  Abad  7% VILL. MOHAMMADPUR GURJAR",
 			imageUrl:
 				"/maps/yamuna-expressway/Layout Plan Of  ONS  Co  Pa  Fac  Gro  Villa  Cana  Infor  Abad  7_ VILL. MOHAMMADPUR GURJAR.JPG",
 			description:
-				"Layout Plan Of  ONS  Co  Pa  Fac  Gro  Villa  Cana  Infor  Abad  7_ VILL. MOHAMMADPUR GURJAR",
+				"Layout Plan Of  ONS  Co  Pa  Fac  Gro  Villa  Cana  Infor  Abad  7% VILL. MOHAMMADPUR GURJAR",
 		},
 		{
 			id: "layout-plan-of-part-sector-20-7-abadi-plots-village-parsaul-block-no-w",
-			name: "LAYOUT PLAN OF  PART SECTOR-20  7_ ABADI PLOTS VILLAGE PARSAUL BLOCK NO.-W",
+			name: "LAYOUT PLAN OF  PART SECTOR-20  7% ABADI PLOTS VILLAGE PARSAUL BLOCK NO.-W",
 			imageUrl:
 				"/maps/yamuna-expressway/LAYOUT PLAN OF  PART SECTOR-20  7_ ABADI PLOTS VILLAGE PARSAUL BLOCK NO.-W.JPG",
 			description:
-				"LAYOUT PLAN OF  PART SECTOR-20  7_ ABADI PLOTS VILLAGE PARSAUL BLOCK NO.-W",
+				"LAYOUT PLAN OF  PART SECTOR-20  7% ABADI PLOTS VILLAGE PARSAUL BLOCK NO.-W",
 		},
 		{
 			id: "layout-plan-of-pocket-sector-17-for-7-abadi-plots-of-village-dhanauri",
-			name: "LAYOUT PLAN OF  POCKET SECTOR-17 FOR 7_ ABADI PLOTS OF VILLAGE DHANAURI",
+			name: "LAYOUT PLAN OF  POCKET SECTOR-17 FOR 7% ABADI PLOTS OF VILLAGE DHANAURI",
 			imageUrl:
 				"/maps/yamuna-expressway/LAYOUT PLAN OF  POCKET SECTOR-17 FOR 7_ ABADI PLOTS OF VILLAGE DHANAURI.jpg",
 			description:
-				"LAYOUT PLAN OF  POCKET SECTOR-17 FOR 7_ ABADI PLOTS OF VILLAGE DHANAURI",
+				"LAYOUT PLAN OF  POCKET SECTOR-17 FOR 7% ABADI PLOTS OF VILLAGE DHANAURI",
 		},
 		{
 			id: "layout-plan-of-se-7-ronija-block-a-niloni-shahpur-block-b",
-			name: "Layout Plan Of  SE  7_ RONIJA BLOCK-A NILONI SHAHPUR  BLOCK-B",
+			name: "Layout Plan Of  SE  7% RONIJA BLOCK-A NILONI SHAHPUR  BLOCK-B",
 			imageUrl:
 				"/maps/yamuna-expressway/Layout Plan Of  SE  7_ RONIJA BLOCK-A NILONI SHAHPUR  BLOCK-B.JPG",
 			description:
-				"Layout Plan Of  SE  7_ RONIJA BLOCK-A NILONI SHAHPUR  BLOCK-B",
+				"Layout Plan Of  SE  7% RONIJA BLOCK-A NILONI SHAHPUR  BLOCK-B",
 		},
 		{
 			id: "layout-plan-of-sector-18-7c-and-7d",
@@ -805,18 +805,18 @@ export const mapData = {
 		},
 		{
 			id: "layout-plan-of-part-of-sector-18pkt-9-vill-mirjapur-7",
-			name: "LAYOUT PLAN OF PART OF SECTOR-18(PKT-9) VILL. MIRJAPUR 7_",
+			name: "LAYOUT PLAN OF PART OF SECTOR-18(PKT-9) VILL. MIRJAPUR 7%",
 			imageUrl:
 				"/maps/yamuna-expressway/LAYOUT PLAN OF PART OF SECTOR-18(PKT-9) VILL. MIRJAPUR 7_.JPG",
-			description: "LAYOUT PLAN OF PART OF SECTOR-18(PKT-9) VILL. MIRJAPUR 7_",
+			description: "LAYOUT PLAN OF PART OF SECTOR-18(PKT-9) VILL. MIRJAPUR 7%",
 		},
 		{
 			id: "layout-plan-of-pocket-sector-18-7-abadi-village-rampur-bangar-sadar",
-			name: "LAYOUT PLAN OF POCKET SECTOR-18 7_ ABADI VILLAGE RAMPUR BANGAR (SADAR)",
+			name: "LAYOUT PLAN OF POCKET SECTOR-18 7% ABADI VILLAGE RAMPUR BANGAR (SADAR)",
 			imageUrl:
 				"/maps/yamuna-expressway/LAYOUT PLAN OF POCKET SECTOR-18 7_ ABADI VILLAGE RAMPUR BANGAR (SADAR).JPG",
 			description:
-				"LAYOUT PLAN OF POCKET SECTOR-18 7_ ABADI VILLAGE RAMPUR BANGAR (SADAR)",
+				"LAYOUT PLAN OF POCKET SECTOR-18 7% ABADI VILLAGE RAMPUR BANGAR (SADAR)",
 		},
 		{
 			id: "layout-plan-of-rated-sector-20-pocket-m",
@@ -827,9 +827,9 @@ export const mapData = {
 		},
 		{
 			id: "layout-plan-of-sector-16-part",
-			name: "Layout Plan Of SECTOR -16 (PART)",
+			name: "Layout Plan Of SECTOR -16",
 			imageUrl: "/maps/yamuna-expressway/Layout Plan Of SECTOR -16 (PART).jpg",
-			description: "Layout Plan Of SECTOR -16 (PART)",
+			description: "Layout Plan Of SECTOR -16",
 		},
 		{
 			id: "layout-plan-of-sector-17-yamuna-expressway",
@@ -840,10 +840,10 @@ export const mapData = {
 		},
 		{
 			id: "layout-plan-of-sector-18-1-mb-pocket-i",
-			name: "LAYOUT plan of SECTOR 18  1 MB  POCKET-I",
+			name: "LAYOUT plan of SECTOR 18 POCKET-I",
 			imageUrl:
 				"/maps/yamuna-expressway/LAYOUT plan of SECTOR 18  1 MB  POCKET-I.JPG",
-			description: "LAYOUT plan of SECTOR 18  1 MB  POCKET-I",
+			description: "LAYOUT plan of SECTOR 18 POCKET-I",
 		},
 		{
 			id: "layout-plan-of-sector-18-pocket-1b",
@@ -861,10 +861,10 @@ export const mapData = {
 		},
 		{
 			id: "layout-plan-of-sector-18-pocket-2a-and-20",
-			name: "LAYOUT Plan of SECTOR 18 POCKET-2A & 20",
+			name: "LAYOUT Plan of SECTOR 18 POCKET-2A & 2C",
 			imageUrl:
 				"/maps/yamuna-expressway/LAYOUT Plan of SECTOR 18 POCKET-2A & 20.JPG",
-			description: "LAYOUT Plan of SECTOR 18 POCKET-2A & 20",
+			description: "LAYOUT Plan of SECTOR 18 POCKET-2A & 2C",
 		},
 		{
 			id: "layout-plan-of-sector-18-pocket-2b",
@@ -902,10 +902,10 @@ export const mapData = {
 		},
 		{
 			id: "layout-plan-of-sector-18-pocket-50",
-			name: "LAYOUT Plan of SECTOR 18 POCKET-50",
+			name: "LAYOUT Plan of SECTOR 18 POCKET-5D",
 			imageUrl:
 				"/maps/yamuna-expressway/LAYOUT Plan of SECTOR 18 POCKET-50.JPG",
-			description: "LAYOUT Plan of SECTOR 18 POCKET-50",
+			description: "LAYOUT Plan of SECTOR 18 POCKET-5D",
 		},
 		{
 			id: "layout-plan-of-sector-18-pocket-j",
@@ -928,10 +928,10 @@ export const mapData = {
 		},
 		{
 			id: "layout-plan-of-sector-20-✗-1-sele-pocket-f",
-			name: "LAYOUT plan of SECTOR 20  ✗  1 sele  POCKET-F",
+			name: "LAYOUT plan of SECTOR 20 POCKET-F",
 			imageUrl:
 				"/maps/yamuna-expressway/LAYOUT plan of SECTOR 20  ✗  1 sele  POCKET-F.jpg",
-			description: "LAYOUT plan of SECTOR 20  ✗  1 sele  POCKET-F",
+			description: "LAYOUT plan of SECTOR 20 POCKET-F",
 		},
 		{
 			id: "layout-plan-of-sector-20-h-pocket-g",
@@ -1058,11 +1058,11 @@ export const mapData = {
 		},
 		{
 			id: "part-layout-plan-village-niloni-shahpur-for-7-residential-plots-of-village-niloni-shahpur-block-edc-and-b-part",
-			name: "PART LAYOUT PLAN  VILLAGE NILONI SHAHPUR  FOR 7_ RESIDENTIAL PLOTS OF VILLAGE-NILONI SHAHPUR  BLOCK - E,D,C & B (PART)",
+			name: "PART LAYOUT PLAN  VILLAGE NILONI SHAHPUR  FOR 7% RESIDENTIAL PLOTS OF VILLAGE-NILONI SHAHPUR  BLOCK - E,D,C & B (PART)",
 			imageUrl:
 				"/maps/yamuna-expressway/PART LAYOUT PLAN  VILLAGE NILONI SHAHPUR  FOR 7_ RESIDENTIAL PLOTS OF VILLAGE-NILONI SHAHPUR  BLOCK - E,D,C & B (PART).JPG",
 			description:
-				"PART LAYOUT PLAN  VILLAGE NILONI SHAHPUR  FOR 7_ RESIDENTIAL PLOTS OF VILLAGE-NILONI SHAHPUR  BLOCK - E,D,C & B (PART)",
+				"PART LAYOUT PLAN  VILLAGE NILONI SHAHPUR  FOR 7% RESIDENTIAL PLOTS OF VILLAGE-NILONI SHAHPUR  BLOCK - E,D,C & B (PART)",
 		},
 		{
 			id: "proposed-layout-of-village-mubarakpur",
@@ -1215,9 +1215,9 @@ export const mapData = {
 		},
 		{
 			id: "vill-kherali-bhav-7",
-			name: "VILL. KHERALI BHAV 7_",
+			name: "VILL. KHERALI BHAV 7%",
 			imageUrl: "/maps/yamuna-expressway/VILL. KHERALI BHAV 7_.JPG",
-			description: "VILL. KHERALI BHAV 7_",
+			description: "VILL. KHERALI BHAV 7%",
 		},
 	],
 	noidaExtension: [
