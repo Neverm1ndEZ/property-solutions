@@ -9,8 +9,8 @@ export const mapData = {
 		},
 		{
 			id: "abadi-at-vill-saini",
-			name: "ABADI AT VILL. SAINI.JPG",
-			imageUrl: "/maps/greater-noida/ABADI AT VILL. SAINI.jpg",
+			name: "ABADI AT VILL. SAINI",
+			imageUrl: "/maps/greater-noida/ABADI AT VILL SAINI.JPG",
 			description:
 				"Comprehensive map of ABADI AT VILL. SAINI with plot details.",
 		},
@@ -54,10 +54,10 @@ export const mapData = {
 		},
 		{
 			id: "layout-plan-of-mup-1",
-			name: "LAYOUT PLAN OF  M.U.P 1",
+			name: "LAYOUT PLAN OF M.U.P - I",
 			imageUrl: "/maps/greater-noida/LAYOUT PLAN OF  M.U.P 1.JPG",
 			description:
-				"Map showcasing the LAYOUT PLAN OF  M.U.P 1 area with key features.",
+				"Map showcasing the LAYOUT PLAN OF M.U.P - I area with key features.",
 		},
 		{
 			id: "layout-plan-of-mu-2",
@@ -120,11 +120,11 @@ export const mapData = {
 				"Map showcasing the LAYOUT PLAN OF ABADI EXTENSION AT VILLAGE GHORI BACHERA area with key features.",
 		},
 		{
-			id: "layout-plan-of-ad",
-			name: "LAYOUT PLAN OF AD",
+			id: "propposed-layout-plan-of-abadi-expansion-for-village-gharbhara-part-i",
+			name: "PROPPOSED LAYOUT PLAN OF ABADI EXPANSION FOR VILLAGE GHARBHARA PART - I",
 			imageUrl: "/maps/greater-noida/LAYOUT PLAN OF AD.jpg",
 			description:
-				"Map showcasing the LAYOUT PLAN OF AD area with key features.",
+				"Map showcasing the PROPPOSED LAYOUT PLAN OF ABADI EXPANSION FOR VILLAGE GHARBHARA PART - I area with key features.",
 		},
 		{
 			id: "layout-plan-of-alpha-1-extension",
