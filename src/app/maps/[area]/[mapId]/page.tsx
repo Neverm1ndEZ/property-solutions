@@ -9,8 +9,11 @@ import {
 	Download,
 	Maximize2,
 } from "lucide-react";
-import { AREA_LIST, getArea, getMaps, mapData } from "@/lib/maps";
+import { AREA_LIST, getArea, getMaps, mapData, relatedMaps } from "@/lib/maps";
 import ContactSidebar from "@/components/ContactSidebar";
+import JsonLd, { breadcrumbs } from "@/components/JsonLd";
+import RelatedMaps from "@/components/RelatedMaps";
+import { thumbUrl } from "@/lib/map-utils";
 
 export const dynamicParams = false;
 
@@ -31,9 +34,15 @@ export async function generateMetadata({
 	if (!area || !map) return {};
 	return {
 		title: `${map.name} — ${area.name}`,
-		description: map.description,
+		description: `${map.name} — authority layout plan for ${area.name}. View the full plot layout and download the original scan free.`,
 		alternates: { canonical: `/maps/${slug}/${mapId}` },
-		openGraph: { images: [map.imageUrl] },
+		// The original scan is ~1MB at 7014px; crawlers and WhatsApp reject that
+		// size, so share the prebuilt thumbnail instead.
+		openGraph: {
+			type: "article",
+			title: `${map.name} — ${area.name}`,
+			images: [thumbUrl(map.imageUrl)],
+		},
 	};
 }
 
@@ -176,10 +185,23 @@ export default async function MapDetailPage({
 							</Link>
 						)}
 					</nav>
+				<RelatedMaps
+					maps={relatedMaps(slug, mapId)}
+					areaSlug={slug}
+					areaName={area.name}
+				/>
 				</div>
 
 				<ContactSidebar />
 			</div>
+
+			<JsonLd
+				data={breadcrumbs([
+					{ name: "Home", path: "/" },
+					{ name: area.name, path: `/maps/${slug}` },
+					{ name: map.name, path: `/maps/${slug}/${mapId}` },
+				])}
+			/>
 		</div>
 	);
 }

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ChevronRight } from "lucide-react";
 import MapGrid from "@/components/MapGrid";
+import JsonLd, { breadcrumbs } from "@/components/JsonLd";
 import { AREA_LIST, getArea, getMaps } from "@/lib/maps";
 
 export const dynamicParams = false;
@@ -61,6 +62,13 @@ export default async function MapGridPage({
 			</header>
 
 			<MapGrid maps={getMaps(slug)} areaSlug={slug} />
+
+			<JsonLd
+				data={breadcrumbs([
+					{ name: "Home", path: "/" },
+					{ name: area.name, path: `/maps/${area.slug}` },
+				])}
+			/>
 		</div>
 	);
 }

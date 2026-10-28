@@ -4,7 +4,8 @@ import "./globals.css";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import FloatingActions from "@/components/FloatingActions";
-import { ADDRESS, EMAIL, PHONE, SITE_NAME } from "@/lib/site";
+import JsonLd from "@/components/JsonLd";
+import { ADDRESS, EMAIL, PHONE, SITE_NAME, SITE_URL } from "@/lib/site";
 import { AREA_LIST } from "@/lib/maps";
 
 const jakarta = Plus_Jakarta_Sans({
@@ -14,7 +15,7 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-	metadataBase: new URL("https://propertysolutions.in"),
+	metadataBase: new URL(SITE_URL),
 	title: {
 		default: `${SITE_NAME} — Plots in Greater Noida & Yamuna Expressway`,
 		template: `%s | ${SITE_NAME}`,
@@ -34,7 +35,14 @@ export const metadata: Metadata = {
 		title: `${SITE_NAME} — Plots in Greater Noida & Yamuna Expressway`,
 		description:
 			"Every authority layout plan for Greater Noida, Yamuna Expressway and Noida Extension, plus plots for sale and purchase.",
-		images: ["/site-assets/hero-1920.webp"],
+		images: [
+			{
+				url: "/site-assets/og.jpg",
+				width: 1200,
+				height: 630,
+				alt: "Property Solutions — plots across Greater Noida and the Yamuna Expressway",
+			},
+		],
 	},
 	robots: { index: true, follow: true },
 };
@@ -60,6 +68,8 @@ const businessJsonLd = {
 	},
 	description: ADDRESS,
 	openingHours: "Mo-Su 09:30-20:30",
+	url: SITE_URL,
+	areaServed: ["Greater Noida", "Yamuna Expressway", "Sikandrabad"],
 };
 
 export default function RootLayout({
@@ -86,11 +96,7 @@ export default function RootLayout({
 				</main>
 				<SiteFooter />
 				<FloatingActions />
-				<script
-					type="application/ld+json"
-					suppressHydrationWarning
-					dangerouslySetInnerHTML={{ __html: JSON.stringify(businessJsonLd) }}
-				/>
+				<JsonLd data={businessJsonLd} />
 			</body>
 		</html>
 	);

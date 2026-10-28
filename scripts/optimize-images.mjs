@@ -40,4 +40,13 @@ await sharp("public/site-assets/hero.png")
 	.webp({ quality: 80, effort: 5 })
 	.toFile("public/site-assets/hero-1920.webp");
 
-console.log(`${made} thumbs (${(bytes / 1e6).toFixed(1)}MB) + hero-1920.webp`);
+// Social preview. Facebook/WhatsApp/X all want ~1200x630; handing them the
+// 1920x1440 hero gets it re-cropped unpredictably or skipped.
+await sharp("public/site-assets/hero.png")
+	.resize({ width: 1200, height: 630, fit: "cover", position: "centre" })
+	.jpeg({ quality: 82, mozjpeg: true })
+	.toFile("public/site-assets/og.jpg");
+
+console.log(
+	`${made} thumbs (${(bytes / 1e6).toFixed(1)}MB) + hero-1920.webp + og.jpg`,
+);

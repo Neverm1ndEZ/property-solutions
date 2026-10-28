@@ -1267,3 +1267,70 @@ export const getMap = (slug: string, id: string) =>
 export const ALL_MAPS = AREA_LIST.flatMap((area) =>
 	mapData[area.key].map((map) => ({ ...map, area })),
 );
+
+/* ------------------------------------------------------------------ *
+ * Related maps
+ *
+ * Every detail page previously had exactly one inbound internal link (its
+ * area grid), which is a weak crawl signal across 176 pages. Grouping by
+ * sector family — ECOTECH 1/2/3…, OMICRON 1/1A/2… — gives each page several
+ * genuinely relevant neighbours.
+ * ------------------------------------------------------------------ */
+
+const NAME_PREFIX =
+	/^(PROPOSED\s+|PORPOSED\s+|LAYOUT\s*PLAN\s+(OF|FOR)\s+|LAYOUTPLAN\s+OF\s+|ABADI\s+LAYOUT\s+PLAN\s+OF\s+|MASTER\s+PLAN\s+OF\s+|ABADI\s+(AT|EXTENSION\s+AT|EXPANSION\s+(FOR|OF)\s+)|GROUP\s+HOUSING\s+AT\s+|VILL\.?\s+|VILLAGE\s+|SECTOR\s+|SEC\s+)+/i;
+
+/** Words that describe a parcel rather than name a sector. */
+const GENERIC = new Set([
+	"POCKET",
+	"PART",
+	"ABADI",
+	"VILLAGE",
+	"SITE",
+	"AREA",
+	"PHASE",
+	"EXTENSION",
+	"BLOCK",
+	"PLAN",
+	"MASTER",
+	"LAYOUT",
+]);
+
+/** "LAYOUT PLAN OF ECOTECH 1 (EXTENSION)" -> "ECOTECH"; "" when unclear. */
+function family(name: string): string {
+	const words = name
+		.toUpperCase()
+		.replace(NAME_PREFIX, "")
+		.replace(/[^A-Z0-9 -]/g, " ")
+		.split(/\s+/)
+		.filter(Boolean);
+	const head = words.find((w) => /[A-Z]/.test(w));
+	return head && !GENERIC.has(head) ? head : "";
+}
+
+/**
+ * Maps related to `mapId`: same sector family first, then its nearest
+ * neighbours in the area listing, so the result is never empty.
+ */
+export function relatedMaps(slug: string, mapId: string, limit = 6) {
+	const maps = getMaps(slug);
+	const index = maps.findIndex((m) => m.id === mapId);
+	if (index === -1) return [];
+
+	const own = family(maps[index].name);
+	const picked = own
+		? maps.filter((m, i) => i !== index && family(m.name) === own)
+		: [];
+
+	// Top up from either side of this map — the listing is alphabetical, so
+	// neighbours are usually the same locality.
+	for (let step = 1; picked.length < limit && step < maps.length; step++) {
+		for (const i of [index - step, index + step]) {
+			const candidate = maps[i];
+			if (!candidate || picked.length >= limit) continue;
+			if (i !== index && !picked.includes(candidate)) picked.push(candidate);
+		}
+	}
+
+	return picked.slice(0, limit);
+}
