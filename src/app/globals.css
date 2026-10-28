@@ -1,1 +1,126 @@
 @import "tailwindcss";
+
+@theme {
+	--font-sans: var(--font-plus-jakarta), ui-sans-serif, system-ui, sans-serif;
+
+	/* Brand: deep forest green, carried from the original site, deepened. */
+	--color-brand-50: oklch(0.971 0.021 160);
+	--color-brand-100: oklch(0.942 0.045 160);
+	--color-brand-200: oklch(0.879 0.085 161);
+	--color-brand-300: oklch(0.793 0.123 163);
+	--color-brand-400: oklch(0.7 0.142 165);
+	--color-brand-500: oklch(0.616 0.137 166);
+	--color-brand-600: oklch(0.52 0.117 167);
+	--color-brand-700: oklch(0.432 0.096 167);
+	--color-brand-800: oklch(0.362 0.077 168);
+	--color-brand-900: oklch(0.308 0.063 169);
+	--color-brand-950: oklch(0.205 0.045 170);
+
+	--color-sand-50: oklch(0.985 0.004 85);
+	--color-sand-100: oklch(0.967 0.008 85);
+	--color-sand-200: oklch(0.927 0.012 85);
+	--color-sand-300: oklch(0.86 0.014 85);
+
+	--color-gold-400: oklch(0.82 0.137 85);
+	--color-gold-500: oklch(0.75 0.148 76);
+
+	--radius-card: 1rem;
+
+	--shadow-soft: 0 1px 2px oklch(0.2 0.04 170 / 0.04),
+		0 4px 16px oklch(0.2 0.04 170 / 0.06);
+	--shadow-lift: 0 2px 4px oklch(0.2 0.04 170 / 0.05),
+		0 12px 32px oklch(0.2 0.04 170 / 0.1);
+
+	--ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+	html {
+		scroll-behavior: smooth;
+		/* Stops layout shifting sideways when a page gains a scrollbar. */
+		scrollbar-gutter: stable;
+		-webkit-text-size-adjust: 100%;
+	}
+
+	body {
+		background: var(--color-sand-50);
+		color: var(--color-brand-950);
+		text-rendering: optimizeLegibility;
+	}
+
+	/* Visible focus for keyboard users only, in brand colour. */
+	:focus-visible {
+		outline: 2px solid var(--color-brand-500);
+		outline-offset: 2px;
+		border-radius: 4px;
+	}
+
+	::selection {
+		background: var(--color-brand-200);
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		html {
+			scroll-behavior: auto;
+		}
+		*,
+		*::before,
+		*::after {
+			animation-duration: 0.01ms !important;
+			transition-duration: 0.01ms !important;
+		}
+	}
+}
+
+@utility container-page {
+	width: 100%;
+	margin-inline: auto;
+	max-width: 80rem;
+	padding-inline: 1rem;
+	@media (width >= 40rem) {
+		padding-inline: 1.5rem;
+	}
+	@media (width >= 64rem) {
+		padding-inline: 2rem;
+	}
+}
+
+/* Fluid headings: no breakpoint cliffs between phone and desktop. */
+@utility text-fluid-hero {
+	font-size: clamp(2rem, 1.1rem + 4.6vw, 4.75rem);
+	line-height: 1.02;
+	letter-spacing: -0.03em;
+}
+
+@utility text-fluid-h2 {
+	font-size: clamp(1.5rem, 1.15rem + 1.5vw, 2.25rem);
+	line-height: 1.15;
+	letter-spacing: -0.02em;
+}
+
+@utility card-surface {
+	background: white;
+	border: 1px solid var(--color-sand-200);
+	border-radius: var(--radius-card);
+	box-shadow: var(--shadow-soft);
+}
+
+/* One-pass entrance; `animation-timeline: view()` where supported, else instant. */
+@utility reveal {
+	@media (prefers-reduced-motion: no-preference) {
+		animation: reveal-in linear both;
+		animation-timeline: view();
+		animation-range: entry 0% cover 22%;
+	}
+}
+
+@keyframes reveal-in {
+	from {
+		opacity: 0;
+		transform: translateY(18px);
+	}
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
